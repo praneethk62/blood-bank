@@ -1,0 +1,29 @@
+.card {
+
+  flex: 1;
+  max-width: calc(25% - 10px); 
+  height: 150px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-color: white;
+  color:black;
+  margin: 50px 50px 20px 50px;
+
+  border:solid #ed1509;
+}
+.card-container{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+   justify-content: space-between;
+ margin-bottom: 10px;
+}
+
+img{
+  height: 60px;
+  margin-left: 30px;
+}
+
